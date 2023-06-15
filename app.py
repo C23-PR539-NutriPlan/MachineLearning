@@ -27,7 +27,7 @@ def create_db_connection():
     connection = mysql.connect(
         host='34.101.224.88',
         user='root',
-        password='nutriplanhore',
+        password='pass',
         database='NutriPlan_db'
     )
     return connection
